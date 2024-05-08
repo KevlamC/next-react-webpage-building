@@ -1,33 +1,384 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 :root {
   --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background: #ffffff;
+}
+
+.Page7 {
+  background: #252B42;
+
+}
+.Page8 {
+  position: relative;
+  align-items: center;
+}
+
+.LastPage {
+  background: #252B42;
+  position: relative;
+}
+
+/* Home.module.css */
+
+.page1 {
+  position: relative; /* Position the container relative */
+}
+
+.page2 {
+  position: relative; /* Position the container relative */
+  padding-bottom: 15%;
+}
+
+.Page3 {
+  position: relative; /* Position the container relative */
+}
+
+.Page4 {
+  position: relative; /* Position the container relative */
+}
+
+.Page5 {
+  position: relative; /* Position the container relative */
+}
+
+.Page6 {
+  position: relative; /* Position the container relative */
+}
+
+.image {
+  width: 100%;
+  height: auto;
+}
+
+.overlayText {
+  position: absolute; /* Position the overlay text absolutely */
+  top: 10%; /* Position the text vertically in the middle */
+  left: 30%; /* Position the text horizontally in the middle */
+  transform: translate(-50%, -50%); /* Center the text */
+  color: white; /* Text color */
+  text-align: left; /* Center-align the text */
+  z-index: 1; /* Ensure text appears above the image */
+}
+
+.overlaySocial {
+  position: absolute; /* Position the overlay text absolutely */
+  top: 10%; /* Position the text vertically in the middle */
+  right: 14%; /* Position the text horizontally in the middle */
+  transform: translate(-50%, -50%); /* Center the text */
+  color: white; /* Text color */
+  text-align: left; /* Center-align the text */
+  z-index: 1; /* Ensure text appears above the image */
+}
+
+.logoParent {
+  position: absolute; /* Position the overlay text absolutely */
+  top: 10%; /* Position the text vertically in the middle */
+  left: 51%; /* Position the text horizontally in the middle */
+  transform: translate(-50%, -50%); /* Center the text */
+  color: white; /* Text color */
+  text-align: left; /* Center-align the text */
+  z-index: 1; /* Ensure text appears above the image */
+}
+
+.Head1Paragraph {
+  position: absolute; /* Position the overlay text absolutely */
+  top: 43%; /* Position the text vertically in the middle */
+  left: 70%; /* Position the text horizontally in the middle */
+  transform: translate(-50%, -50%); /* Center the text */
+  color: white; /* Text color */
+  text-align: left; /* Center-align the text */
+  z-index: 1; /* Ensure text appears above the image */
+}
+
+.vidImage {
+  position: absolute; /* Position the overlay text absolutely */
+  top: 50%; /* Position the text vertically in the middle */
+  left: 50%; /* Position the text horizontally in the middle */
+  transform: translate(-50%, -50%); /* Center the text */
+  color: white; /* Text color */
+  text-align: left; /* Center-align the text */
+  z-index: 1; /* Ensure text appears above the image */
+}
+.playbuttoncircle {
+  position: absolute; /* Position the overlay text absolutely */
+  top: 50%; /* Position the text vertically in the middle */
+  left: 50%; /* Position the text horizontally in the middle */
+  transform: translate(-50%, -50%); /* Center the text */
+  color: white; /* Text color */
+  text-align: left; /* Center-align the text */
+  z-index: 1; /* Ensure text appears above the image */
+}
+.PlayButton {
+  position: absolute; /* Position the overlay text absolutely */
+  top: 50%; /* Position the text vertically in the middle */
+  left: 50%; /* Position the text horizontally in the middle */
+  transform: translate(-40%, -50%); /* Center the text */
+  color: white; /* Text color */
+  text-align: left; /* Center-align the text */
+  z-index: 1; /* Ensure text appears above the image */
+
+}
+
+.Page1Button{
+  position: absolute; /* Position the overlay text absolutely */
+  top: 75%; /* Position the text vertically in the middle */
+  left: 50%; /* Position the text horizontally in the middle */
+  transform: translate(-50%, -50%); /* Center the text */
+  color: white; /* Text color */
+  text-align: left; /* Center-align the text */
+  z-index: 1; /* Ensure text appears above the image */
+}
+
+
+.page1HeadingText{
+  position: absolute; /* Position the overlay text absolutely */
+  top: 38%; /* Position the text vertically in the middle */
+  left: 50%; /* Position the text horizontally in the middle */
+  transform: translate(-50%, -50%); /* Center the text */
+  color: white; /* Text color */
+  text-align: left; /* Center-align the text */
+  z-index: 1; /* Ensure text appears above the image */
+}
+
+.Page2image {
+  display: flex; /* Position the overlay text absolutely */
+}
+
+
+.logo {
+  display: flex;
+  gap: 20px;
+  align-content: flex-start;
+}
+
+.Heading1Text {
+  display: flex;
+  gap: 20px;
+  align-content: flex-start;
+}
+
+.Page1ParagraphText {
+  position: absolute; /* Position the overlay text absolutely */
+  top: 55%; /* Position the text vertically in the middle */
+  left: 50%; /* Position the text horizontally in the middle */
+  transform: translate(-50%, -50%); /* Center the text */
+  color: white; /* Text color */
+  text-align: left; /* Center-align the text */
+  z-index: 1; /* Ensure text appears above the image */
+}
+
+.Page2DifferentFeatures {
+  display: flex;
+  padding-bottom: 15%;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 3.5rem;  
+}
+.enough {
+  display: flex;
+  padding-bottom: 15%;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 3.5rem;  
+
+}
+
+.Page3flex {
+  display: flex;
+  padding-bottom: 15%;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 3.5rem;  
+}
+
+.Page4flex {
+  display: flex;
+  padding-bottom: 15%;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 3.5rem;  
+}
+
+.Page5Button {
+  display: flex;
+  padding-bottom: 15%;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 3.5rem;
+
+}
+
+.Partners {
+  display: flex;
+  padding-bottom: 10%;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 3.5rem;  
+}
+
+.Sheesh {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 6%;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 3.5rem;  
+}
+
+
+.Page6Button {
+  display: flex;
+  padding-bottom: 10%;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 3.5rem;  
+
+}
+
+.Page8Top {
+  display: relative;
+  justify-content: center;
+  align-content: center;
+  gap: 5.5rem;  
+}
+.ContactUsInput {
+  display: flex;
+  padding-bottom: 5%;
+  justify-content: center;
+  flex-wrap: wrap; 
+}
+
+.Thats-how-it-s-donee {
+  display: flex;
+  padding-bottom: 10%;
+  padding-top: 10%;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 5.5rem;  
+
+}
+
+.Page9End {
+  display: flex;
+  padding-bottom: 10%;
+  padding-top: 0.5%;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 0.5rem;  
+}
+
+.overlaySocial2 {
+  position: absolute; /* Position the overlay text absolutely */
+  top: 53%; /* Position the text vertically in the middle */
+  right: 23.5%; /* Position the text horizontally in the middle */
+  transform: translate(-50%, -50%); /* Center the text */
+  color: white; /* Text color */
+  text-align: left; /* Center-align the text */
+  z-index: 1; /* Ensure text appears above the image */
+}
+
+.PricingPlans {
+  display: flex;
+  padding-bottom: 10%;
+  padding-top: 10%;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 5.5rem;  
+
+
+}
+.Socialss2 {
+  display: flex;
+  gap: 20px;
+  align-content: flex-start;
+}
+
+.location {
+  display: flex;
+  gap: 5px;
+  align-content: flex-start;
+  align-items: center;
+  padding-bottom: 5%;
+}
+
+.phoneNumber {
+  display: flex;
+  gap: 5px;
+  align-content: flex-start;
+  align-items: center;
+
+}
+
+
+.Paragraph1Text {
+  display: flex;
+  gap: 20px;
+  align-content: flex-start;
+}
+
+
+
+.Page1ButtonText {
+  display: flex;
+  gap: 20px;
+  align-content: flex-start;
+
+}
+
+.Socialss {
+  display: flex;
+  gap: 20px;
+  align-content: flex-start;
+}
+
+.Head1Text {
+  display: flex;
+  gap: 20px;
+  align-content: flex-start;
+}
+
+
+
+.social-media-icons img {
+  margin: 0 5px; /* Adjust as needed */
+
+}
+
+.menubarlinks {
+  display: flex;
+  gap: 35px;
+  align-content: flex-start;
 }
 
 @layer utilities {
   .text-balance {
     text-wrap: balance;
   }
+}
+
+@font-face {
+  font-family: 'Graphik';
+  src: url('/fonts/graphik-regular.woff2') format('woff2'),
+       url('/fonts/graphik-regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Graphik';
+  src: url('/fonts/graphik-bold.woff2') format('woff2'),
+       url('/fonts/graphik-bold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
 }
