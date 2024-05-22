@@ -29,7 +29,13 @@ body {
 /* Home.module.css */
 
 .page1 {
-  position: relative; /* Position the container relative */
+  position: relative;
+  background-image: url("../public/Rectangle 9.svg"); /* Position the container relative */
+  padding-top: 200;
+  padding-bottom: 500;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 .page2 {
@@ -59,30 +65,45 @@ body {
 }
 
 .overlayText {
-  position: absolute; /* Position the overlay text absolutely */
-  top: 10%; /* Position the text vertically in the middle */
-  left: 30%; /* Position the text horizontally in the middle */
-  transform: translate(-50%, -50%); /* Center the text */
+   /* Position the text horizontally in the middle */ /* Center the text */
   color: white; /* Text color */
   text-align: left; /* Center-align the text */
   z-index: 1; /* Ensure text appears above the image */
 }
 
+
+.page1image > img {
+  width: 100%;
+  height: 1080;
+}
+
+.yeahbro {
+  display: flex;
+}
+
+.damnsonn {
+  display: flex;
+  margin-top: 1%;
+  padding-top: 10%;
+  flex-wrap: wrap;
+  padding-left: 85;
+  transform: translate(-8.5%, -150%);
+  align-items: center;
+  justify-content: center;
+}
+
 .overlaySocial {
-  position: absolute; /* Position the overlay text absolutely */
-  top: 10%; /* Position the text vertically in the middle */
-  right: 14%; /* Position the text horizontally in the middle */
-  transform: translate(-50%, -50%); /* Center the text */
+  padding-left: 50;
+  
+ /* Center the text */
   color: white; /* Text color */
   text-align: left; /* Center-align the text */
   z-index: 1; /* Ensure text appears above the image */
 }
 
 .logoParent {
-  position: absolute; /* Position the overlay text absolutely */
-  top: 10%; /* Position the text vertically in the middle */
-  left: 51%; /* Position the text horizontally in the middle */
-  transform: translate(-50%, -50%); /* Center the text */
+ /* Center the text */
+ padding-left: 20;
   color: white; /* Text color */
   text-align: left; /* Center-align the text */
   z-index: 1; /* Ensure text appears above the image */
@@ -234,6 +255,14 @@ body {
   gap: 3.5rem;  
 }
 
+.khalass {
+  display: flex;
+  padding-bottom: 10%;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 3.5rem;  
+}
+
 
 .Page6Button {
   display: flex;
@@ -357,28 +386,12 @@ body {
 
 .menubarlinks {
   display: flex;
-  gap: 35px;
-  align-content: flex-start;
+  gap: 27.5px;
+  align-content: center;
 }
 
 @layer utilities {
   .text-balance {
     text-wrap: balance;
   }
-}
-
-@font-face {
-  font-family: 'Graphik';
-  src: url('/fonts/graphik-regular.woff2') format('woff2'),
-       url('/fonts/graphik-regular.woff') format('woff');
-  font-weight: 400;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Graphik';
-  src: url('/fonts/graphik-bold.woff2') format('woff2'),
-       url('/fonts/graphik-bold.woff') format('woff');
-  font-weight: 700;
-  font-style: normal;
 }
