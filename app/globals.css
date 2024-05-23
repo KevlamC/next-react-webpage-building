@@ -85,6 +85,8 @@ body {
   display: flex;
   margin-top: 1%;
   padding-top: 10%;
+  flex-grow: 0;
+  flex-shrink: 0;
   flex-wrap: wrap;
   padding-left: 85px;
   transform: translate(-8.5%, -150%);
