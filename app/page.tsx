@@ -7,59 +7,59 @@ export default function Home() {
     <>
     <main>
       <section className="page1">
-            <div className='damnsonn'>
-              <section className="overlayText">
-                <div className="menubarlinks">
-                  <p>Home</p>
-                  <p>Product</p>
-                  <p>Pricing</p>
-                  <p>About</p>
-                  <p>Contact</p>
-                  <style>
-                    {`
-                      .menubarlinks {
-                        color: white;
-                        font-family: 'Roboto';
-                        font-weight: 400;
-                        font-size: 15px;
-                        line-height: 1;
-                        letter-spacing: 0.20;
-                        word-wrap: break-word;
-                      }
-                    `}
-                  </style>
-                </div> 
-              </section>   
-              <div className = "logoParent">
-                <div className="logo">
-                  <Image
-                    src="/next.svg"
-                    alt="FigmaLand Logo"
-                    width={186}
-                    height={58}
-                  />
-                </div>
-              </div>
-              <div className = "overlaySocial">    
-                <div className = "Socialss">
-                  <Image
-                    src="/twitter.svg"
-                    alt="Twitter Logo"
-                    width={32}
-                    height={32} />
-                  <Image
-                    src="/facebook.svg"
-                    alt="Facebook Logo"
-                    width={32}
-                    height={32} />
-                  <Image
-                    src="/linkedin.svg"
-                    alt="Linkedin Logo"
-                    width={32}
-                    height={32} />
-                </div>
-              </div> 
-            </div>  
+        <div className='damnsonn'>
+          <section className="overlayText">
+            <div className="menubarlinks">
+              <p>Home</p>
+              <p>Product</p>
+              <p>Pricing</p>
+              <p>About</p>
+              <p>Contact</p>
+              <style>
+                {`
+                  .menubarlinks {
+                    color: white;
+                    font-family: 'Roboto';
+                    font-weight: 400;
+                    font-size: 15px;
+                    line-height: 1;
+                    letter-spacing: 0.20;
+                    word-wrap: break-word;
+                  }
+                `}
+              </style>
+            </div> 
+          </section>   
+          <div className = "logoParent">
+            <div className="logo">
+              <Image
+                src="/next.svg"
+                alt="FigmaLand Logo"
+                width={186}
+                height={58}
+              />
+            </div>
+          </div>
+          <div className = "overlaySocial">    
+            <div className = "Socialss">
+              <Image
+                src="/twitter.svg"
+                alt="Twitter Logo"
+                width={32}
+                height={32} />
+              <Image
+                src="/facebook.svg"
+                alt="Facebook Logo"
+                width={32}
+                height={32} />
+              <Image
+                src="/linkedin.svg"
+                alt="Linkedin Logo"
+                width={32}
+                height={32} />
+            </div>
+          </div> 
+        </div>  
             <div className="page1HeadingText">
               <h1 className="Heading1Text">
                 The best products start with Figma
@@ -103,8 +103,8 @@ export default function Home() {
             </div>
             </div>
           </div>
-    </section>  
-  </main>
+      </section>  
+    </main>
       <section className="page2">
         <section className="Page2Top">
           <h2 className= "Features">Features
