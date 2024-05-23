@@ -30,7 +30,7 @@ body {
 
 .page1 {
   position: relative;
-  background-image: url("../public/Rectangle 9.svg"); /* Position the container relative */
+  background-image: url("/Rectangle 9.svg"); /* Position the container relative */
   padding-top: 200px;
   padding-bottom: 500px;
   background-repeat: no-repeat;
