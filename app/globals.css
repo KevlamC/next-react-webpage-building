@@ -66,7 +66,6 @@ body {
 
 .overlayText {
    /* Position the text horizontally in the middle */ /* Center the text */
-  padding-left: 250;
    color: white; /* Text color */
   text-align: left; /* Center-align the text */
   z-index: 1; /* Ensure text appears above the image */
@@ -87,7 +86,7 @@ body {
   margin-top: 1%;
   padding-top: 10%;
   flex-wrap: wrap;
-  padding-left: 85;
+  padding-left: 185;
   transform: translate(-8.5%, -150%);
   align-items: center;
   justify-content: center;
