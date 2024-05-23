@@ -87,7 +87,7 @@ body {
   padding-top: 10%;
   flex-wrap: wrap;
   padding-left: 85;
-  transform: translate(-0.5%, -150%);
+  transform: translate(20.5%, -150%);
   align-items: center;
   justify-content: center;
 }
