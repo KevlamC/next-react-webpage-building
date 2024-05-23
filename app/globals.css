@@ -94,7 +94,7 @@ body {
 
 .overlaySocial {
   padding-left: 50;
-  padding-right: 100;
+  margin-right: 100;
   
  /* Center the text */
   color: white; /* Text color */
