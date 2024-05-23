@@ -86,7 +86,7 @@ body {
   margin-top: 1%;
   padding-top: 10%;
   flex-wrap: wrap;
-  padding-left: 85;
+  padding-left: 85px;
   transform: translate(-8.5%, -150%);
   align-items: center;
   justify-content: center;
@@ -96,8 +96,7 @@ body {
   padding-left: 50;
   
  /* Center the text */
-  color: white; /* Text color */
-  text-align: left; /* Center-align the text */
+  color: white; /* Text color */ /* Center-align the text */
   z-index: 1; /* Ensure text appears above the image */
 }
 
