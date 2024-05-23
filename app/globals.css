@@ -87,13 +87,14 @@ body {
   padding-top: 10%;
   flex-wrap: wrap;
   padding-left: 85;
-  transform: translate(20.5%, -150%);
+  transform: translate(-8.5%, -150%);
   align-items: center;
   justify-content: center;
 }
 
 .overlaySocial {
   padding-left: 50;
+  padding-left: 100;
   
  /* Center the text */
   color: white; /* Text color */
