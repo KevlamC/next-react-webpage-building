@@ -31,6 +31,7 @@ body {
 .page1 {
   position: relative;
   background-image: url("../public/Rectangle 9.svg"); /* Position the container relative */
+  background-color: black;
   padding-top: 200;
   padding-bottom: 500;
   background-repeat: no-repeat;
